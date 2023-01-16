@@ -11,10 +11,18 @@
   position: absolute;
   left: 12px;
 }
+.Icon-container--edit {
+  position: absolute;
+  top: -24px;
+  right: 48px;
+}
 .Icon-container--delete {
   position: absolute;
   top: -24px;
   right: 0;
+}
+.Icon-svg--edit{
+
 }
 
 .Icon-svg {
@@ -24,6 +32,9 @@
 }
 .Icon-container:hover .Icon-svg--check {
   fill: #4caf50;
+}
+.Icon-container:hover .Icon-svg--edit {
+  fill: #30adca;
 }
 .Icon-container:hover .Icon-svg--delete {
   fill: red;
